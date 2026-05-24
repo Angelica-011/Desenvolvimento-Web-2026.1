@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(226, 91, 1);
+}
+
+#profile{
+    height: 70px;
+    width: 70px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    background-image: url("pernalonga.jpg");
+    background-size: cover;
+    margin: auto;
+}
+
+#username{
+    color: #fff;
+    text-align: center;  
+}
+
+.buttonlist{
+    background-color: white;
+    border-radius: 20px;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.network-icon{
+    height: 30px;
+    width: 30px;
+    background-image: url("images.jpg");
+    background-size: cover;
+}
