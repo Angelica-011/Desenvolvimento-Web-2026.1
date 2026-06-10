@@ -8,29 +8,43 @@ body{
     border: solid 1px #fff;
     border-radius: 50%;
     background-image: url("pernalonga.jpg");
-    background-size: cover;
+   background-size: cover;
     margin: auto;
+    margin-bottom: 15px;
 }
-
 #username{
     color: #fff;
-    text-align: center;  
-}
-
-.buttonlist{
-    background-color: white;
-    border-radius: 20px;
-    font-size: 10px;
     text-align: center;
-    padding: 10px;
-    width: 400px;
-    margin: auto;
-    margin-top: 10px;
 }
-
+.buttonlist{
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    text-align: center;
+    padding: 18px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+.buttonlist:hover{
+    background-color:rgb(187, 40, 178);
+    color:white;
+    cursor: pointer;
+    animation: fadeIn 0.7s ease-out;
+    -webkit-animation:fadeIn 0.7s ease-out;
+}
 .network-icon{
     height: 30px;
     width: 30px;
-    background-image: url("images.jpg");
     background-size: cover;
+    float: left;
+    margin-left: 20px;
+}
+.instagramicon{
+    background-image: url("instagram.jpg");
+}
+#networkicon-container{
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
 }
